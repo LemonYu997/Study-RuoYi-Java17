@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>lemon-modules</artifactId>
+        <groupId>com.lemon</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>lemon-system</artifactId>
+
+    <description>
+        system系统模块
+    </description>
+
+    <dependencies>
+        <!-- 通用工具-->
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-doc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-translation</artifactId>
+        </dependency>
+
+        <!-- OSS功能模块 -->
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-oss</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-log</artifactId>
+        </dependency>
+
+        <!-- excel-->
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-excel</artifactId>
+        </dependency>
+
+        <!-- SMS功能模块 -->
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-sms</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-tenant</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-idempotent</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-sensitive</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-encrypt</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-websocket</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-sse</artifactId>
+        </dependency>
+    </dependencies>
+</project>

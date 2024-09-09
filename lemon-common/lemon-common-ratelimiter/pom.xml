@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>lemon-common</artifactId>
+        <groupId>com.lemon</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>lemon-common-ratelimiter</artifactId>
+
+    <description>
+        lemon-common-ratelimiter 限流功能
+    </description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-redis</artifactId>
+        </dependency>
+    </dependencies>
+</project>

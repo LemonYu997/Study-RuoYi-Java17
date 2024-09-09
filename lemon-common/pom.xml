@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>lemon-vue-plus</artifactId>
+        <groupId>com.lemon</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>lemon-common-bom</module>
+        <module>lemon-common-social</module>
+        <module>lemon-common-core</module>
+        <module>lemon-common-doc</module>
+        <module>lemon-common-excel</module>
+        <module>lemon-common-idempotent</module>
+        <module>lemon-common-job</module>
+        <module>lemon-common-log</module>
+        <module>lemon-common-mail</module>
+        <module>lemon-common-mybatis</module>
+        <module>lemon-common-oss</module>
+        <module>lemon-common-ratelimiter</module>
+        <module>lemon-common-redis</module>
+        <module>lemon-common-satoken</module>
+        <module>lemon-common-security</module>
+        <module>lemon-common-sms</module>
+        <module>lemon-common-web</module>
+        <module>lemon-common-translation</module>
+        <module>lemon-common-sensitive</module>
+        <module>lemon-common-json</module>
+        <module>lemon-common-encrypt</module>
+        <module>lemon-common-tenant</module>
+        <module>lemon-common-websocket</module>
+        <module>lemon-common-sse</module>
+    </modules>
+
+    <artifactId>lemon-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        common 通用模块
+    </description>
+
+
+
+</project>
