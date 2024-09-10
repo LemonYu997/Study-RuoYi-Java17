@@ -29,6 +29,11 @@
 
         <dependency>
             <groupId>com.lemon</groupId>
+            <artifactId>lemon-common-mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lemon</groupId>
             <artifactId>lemon-common-translation</artifactId>
         </dependency>
 
