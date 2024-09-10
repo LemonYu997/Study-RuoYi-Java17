@@ -14,3 +14,10 @@ server:
   servlet:
     # 应用的访问路径
     context-path: /
+
+# Spring配置
+spring:
+  application:
+    name: ${lemon.name}
+  profiles:
+    active: @profiles.active@
