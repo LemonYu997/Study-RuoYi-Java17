@@ -21,3 +21,12 @@ spring:
     name: ${lemon.name}
   profiles:
     active: @profiles.active@
+
+
+# 日志配置
+logging:
+  level:
+    com.lemon: @logging.level@
+    org.springframework: warn
+    org.mybatis.spring.mapper: error
+  config: classpath:logback-plus.xml
