@@ -10,6 +10,8 @@ import com.lemon.common.core.domain.R;
 import com.lemon.common.core.utils.SpringUtils;
 import com.lemon.common.core.utils.StringUtils;
 import com.lemon.common.core.utils.reflect.ReflectUtils;
+import com.lemon.common.ratelimiter.annotation.RateLimiter;
+import com.lemon.common.ratelimiter.enums.LimitType;
 import com.lemon.common.redis.utils.RedisUtils;
 import com.lemon.common.web.config.properties.CaptchaProperties;
 import com.lemon.common.web.enums.CaptchaType;
@@ -39,9 +41,8 @@ public class CaptchaController {
 
     /**
      * 生成验证码
-     * todo 限流功能
      */
-//    @RateLimiter(time = 60, count = 10, limitType = LimitType.IP)
+    @RateLimiter(time = 60, count = 10, limitType = LimitType.IP)
     @GetMapping("/auth/code")
     public R<CaptchaVo> getCode() {
         CaptchaVo vo = new CaptchaVo();
