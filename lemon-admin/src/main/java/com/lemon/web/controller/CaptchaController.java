@@ -73,6 +73,6 @@ public class CaptchaController {
         RedisUtils.setCacheObject(verifyKey, code, Duration.ofMinutes(Constants.CAPTCHA_EXPIRATION));
         vo.setUuid(uuid);
         vo.setImg(captcha.getImageBase64());
-        return R.ok();
+        return R.ok(vo);
     }
 }
